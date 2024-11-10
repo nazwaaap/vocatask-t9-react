@@ -2,7 +2,17 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customNavy: '#070F2B', 
+      },
+      boxShadow: {
+        md: '0 0px 6px 0px rgba(0, 0, 0 , 0.1)',
+      },
+      scale: {
+        102: '1.02',
+      },
+    },
   },
   plugins: [],
-}
+};
